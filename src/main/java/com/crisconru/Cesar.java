@@ -8,7 +8,6 @@ public class Cesar {
     private int key;
 
     /**
-     * 
      * @param i
      */
     public Cesar(int i) {
@@ -16,7 +15,6 @@ public class Cesar {
     }
 
     /**
-     * 
      * @param mensaje
      * @return
      */
@@ -31,7 +29,6 @@ public class Cesar {
     }
 
     /**
-     * 
      * @param mensajeCifrado
      * @return
      */
