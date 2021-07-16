@@ -1,12 +1,25 @@
 package com.crisconru;
 
+/**
+ * @author: Cristo
+ */
 public class Cesar {
+
     int key;
 
+    /**
+     * 
+     * @param i
+     */
     public Cesar(int i) {
         key = i;
     }
 
+    /**
+     * 
+     * @param mensaje
+     * @return
+     */
     public String cifrar(String mensaje) {
         String cipherMsg = "";
 
@@ -17,6 +30,11 @@ public class Cesar {
         return cipherMsg;
     }
 
+    /**
+     * 
+     * @param mensajeCifrado
+     * @return
+     */
     public String descifrar(String mensajeCifrado) {
         String uncipherMsg = "";
         for (int i = 0; i < mensajeCifrado.length(); i++) {
