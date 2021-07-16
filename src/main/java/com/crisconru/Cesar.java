@@ -5,7 +5,7 @@ package com.crisconru;
  */
 public class Cesar {
 
-    int key;
+    private int key;
 
     /**
      * 
