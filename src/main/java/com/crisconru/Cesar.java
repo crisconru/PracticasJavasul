@@ -2,6 +2,7 @@ package com.crisconru;
 
 public class Cesar {
     int key;
+
     public Cesar(int i) {
         key = i;
     }
@@ -9,10 +10,9 @@ public class Cesar {
     public String cifrar(String mensaje) {
         String cipherMsg = "";
 
-        
-        for(int i = 0; i < mensaje.length(); i++){
+        for (int i = 0; i < mensaje.length(); i++) {
             char character = mensaje.charAt(i);
-            cipherMsg += (character != ' ') ? (char)(character + key) : ' ';
+            cipherMsg += (character != ' ') ? (char) (character + key) : ' ';
         }
         return cipherMsg;
     }
@@ -21,9 +21,9 @@ public class Cesar {
         String uncipherMsg = "";
         for (int i = 0; i < mensajeCifrado.length(); i++) {
             char character = mensajeCifrado.charAt(i);
-            uncipherMsg += (character != ' ') ? (char)(character - key) : ' ';
+            uncipherMsg += (character != ' ') ? (char) (character - key) : ' ';
         }
         return uncipherMsg;
     }
-    
+
 }
