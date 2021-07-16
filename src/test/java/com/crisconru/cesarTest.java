@@ -1,15 +1,20 @@
 package com.crisconru;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import org.junit.jupiter.api.Test;
 
-public class cesarTest {
+/**
+ * @author: yo
+ */
+public class CesarTest {
 
     private Cesar cesar = new Cesar(3);
 
+    /** */
     @Test
     public void cifrarTest() {
 
